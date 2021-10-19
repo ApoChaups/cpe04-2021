@@ -14,7 +14,10 @@ border-radius: 20px;
   background-color: yellow;
   color: green;
   font-family: bold;
+}
 
+#time{
+  box-shadow: 5px 5px 5px;
 }
 
 
