@@ -7,7 +7,7 @@ body{
 button{
   color: blue;
   background-color: yellow;
-
+font-family: Times;
 }
 
     #minuteStr {
