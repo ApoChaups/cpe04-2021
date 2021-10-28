@@ -4,6 +4,9 @@ body{
   background: skyblue;
 }
 
+
+
+
 button{
   color: blue;
 font-family: Times;
@@ -15,7 +18,7 @@ border-radius: 20px;
   color: green;
   font-family: bold;
 
-  //
+
 }
 
 #time{
@@ -80,6 +83,24 @@ border-radius: 20px;
         font-size: 10px;
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
     }
+
+   #btnD{ 
+     position:absolute; top:550px; left:25%; width:50%; height:50px; 
+     font-size: 20px;
+     font-family:"Toppan Bunkyu Midashi Gothic","凸版文久見出しゴシック";
+    max-width: 200px;
+    padding: 10px 10px; 
+    display: inline-block; 
+    text-align: center; 
+    color: #c5394d; 
+    background-color: #ece919; 
+    border-bottom: 5px solid #c5394d; 
+    border-radius: 10px; 
+    }
+
+     
+    
+    /*色や主な共通部分は省略*/
     
     #minute {
         font-size: 30px;
