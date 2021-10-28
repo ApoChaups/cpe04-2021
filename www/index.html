@@ -38,6 +38,9 @@
         $('#btnC').click(function(e) {
             btnCClick(e);
         });
+         $('#btnD').click(function(e) {
+            btnDClick(e);
+        });
         init();
     });
     
@@ -161,8 +164,10 @@
         $('#btnA').prop('disabled', false);
         $('#btnB').prop('disabled', false);
         $('#btnC').prop('disabled', false);
+         $('#btnD').prop('disabled', false);
         
     }
+
 
     // Alarmの処理
     function alarm(){
@@ -179,6 +184,13 @@
       audio.src = "pin.wav";
       audio.play();
     }
+
+    function alarm2(){
+      var audio2 = new Audio();
+      audio2.src = "game.mp3";
+      audio2.play();
+    }
+
     
     // ButtonAがクリックされた時の処理
     function btnAClick(e){
@@ -204,6 +216,18 @@
         $("#remain").html("残り時間： " + period);
         
     }
+
+    function btnDClick(e){
+      alarm2();
+        
+        
+    }
+    
+
+    
+    
+
+    
     
  
     // 繰り返し実行する処理
@@ -236,7 +260,8 @@
     <button id="btnA">Start</button>  
     <button id="btnB">Stop</button>  
     <button id="btnC">Set</button>
-   <a class="btn type02" href=""">押すな</a>
+    <button id="btnD">押すな</button>
+   
     <input type="number" id="minute" value=0 >
     <input type="number" id="second" value=15 >
 </body>
